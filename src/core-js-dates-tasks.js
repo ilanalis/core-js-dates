@@ -220,7 +220,7 @@ function getWeekNumberByDate(date) {
   const daysDifference = Math.ceil(
     (localDate - closestMonday) / millisecondsPerDay
   );
-  const weekNumber = Math.ceil((daysDifference + 2) / 7);
+  const weekNumber = Math.ceil((daysDifference + 1) / 7);
   return weekNumber;
 }
 
